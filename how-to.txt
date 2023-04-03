@@ -19,3 +19,6 @@ Step 5:- In the file explorer, copy the file in the project directory
 Step 6:- Run command -> java -jar word-count.jar "{fileName}"
 E.g.
 If your file name is "sample.txt", java -jar word-count.jar "sample.txt"
+
+For sample output, I have kept a file called "word-count-sample-1.txt" in project directory level,
+on command prompt execute the command - java -jar word-count.jar "word-count-sample-1.txt"
