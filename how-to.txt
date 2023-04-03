@@ -1,0 +1,21 @@
+How to execute Word Count program?
+
+Step 1:- Please make sure JDK/JRE 17 is installed on your machine and ""<JDK/JRE_DIR>\bin" is set in the path environment variable
+
+Step 2:- Download the project "WordCount" and extract if it is in compressed file format.
+
+Step 3:- Copy the file you want to check in the project directory.
+E.g.
+If project directory "WordCount" is inside the directory "C:\workspace" and your file is "sample.txt",
+then copy "sample.txt" inside the directory "c:\workspace\WordCount\".
+
+Step 4:- Open command prompt and navigate to the project directory
+E.g.
+If project directory "WordCount" is inside the directory "C:\workspace",
+then command prompt should be navigated till "C:\workspace\WordCount>"
+
+Step 5:- In the file explorer, copy the file in the project directory
+
+Step 6:- Run command -> java -jar word-count.jar "{fileName}"
+E.g.
+If your file name is "sample.txt", java -jar word-count.jar "sample.txt"
